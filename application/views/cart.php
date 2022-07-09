@@ -18,8 +18,8 @@
           <div class="navbar-nav ms-auto text-white">
             <a class="nav-link text-white" aria-current="page" href="<?= base_url("/") ?>">Home</a>
             <a class="nav-link text-white" href="#">About</a>
-            <a class="nav-link text-white active" href="#">Cart</a>
-            <a class="nav-link text-white" href="#">Login</a>
+            <a class="nav-link text-white active" href="<?= base_url("cart") ?>">Cart</a>
+            <a class="nav-link text-white" href="<?= base_url("/login"); ?>">Login</a>
             <!-- <a class="nav-link text-white" href="<?= base_url("/pages/trending") ?>">Trending</a> -->
           </div>
         </div>

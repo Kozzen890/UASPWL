@@ -17,10 +17,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto text-white">
-            <a class="nav-link text-white" href="#">Home</a>
+            <a class="nav-link text-white" href="<?= base_url("/") ?>">Home</a>
             <a class="nav-link text-white" href="">About</a>
-            <a class="nav-link text-white" href="">Market</a>
-            <a class="nav-link active text-white" href="#">Login</a>
+            <a class="nav-link text-white" href="Cart">Cart</a>
+            <a class="nav-link active text-white" href="<?= base_url("/login"); ?>">Login</a>
           </div>
         </div>
       </div>

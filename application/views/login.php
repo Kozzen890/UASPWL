@@ -20,7 +20,7 @@
             <a class="nav-link text-white" href="<?= base_url("/") ?>">Home</a>
             <a class="nav-link text-white" href="">About</a>
             <a class="nav-link text-white" href="<?= base_url("cart") ?>">Cart</a>
-            <a class="nav-link active text-white" href="#">Login</a>
+            <a class="nav-link active text-white" href="<?= base_url("/login"); ?>">Login</a>
           </div>
         </div>
       </div>
