@@ -42,7 +42,7 @@
                       <form action="" method="post" class="user">
                         <div class="form-group">
                           <label class="block text-gray-700 text-sm font-bold ml-3" for="login">Username</label>
-                          <input type="name" class="form-control form-control-user mt-2" name="username" aria-describedby="emailHelp" placeholder="Masukkan Username...">
+                          <input type="name" class="form-control form-control-user mt-2" name="name" aria-describedby="emailHelp" placeholder="Masukkan Username...">
                         </div>
                       	<div class="form-group">
                           <label for="login" class="block text-gray-700 text-sm font-bold ml-3 mt-2">Password</label>

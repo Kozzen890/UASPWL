@@ -19,7 +19,13 @@
             <a class="nav-link active text-white" aria-current="page" href="<?= base_url("/") ?>">Home</a>
             <a class="nav-link text-white" href="#">About</a>
             <a class="nav-link text-white" href="cart">Cart</a>
-            <a class="nav-link text-white" href="<?= base_url("/login"); ?>">Login</a>
+            <?php 
+							if($this->session->userdata('username')){
+								echo '<a class="nav-link text-white" href="'.base_url("/Login/logout").'">Logout</a>';
+							}else{
+								echo '<a class="nav-link text-white" href="'.base_url("/login").'">Login</a>';
+							}
+						?>
           </div>
         </div>
       </div>
